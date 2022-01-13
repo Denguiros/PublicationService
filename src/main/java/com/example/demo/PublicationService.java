@@ -29,10 +29,6 @@ public class PublicationService implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {
 		configuration.exposeIdsFor(Publication.class);
-		Publication publication = new Publication();
-		publication.setLien("Testing link");
-		publication.setSourcePDF("Testing S");
-		publicationRepository.save(publication);
 	}
 	
 

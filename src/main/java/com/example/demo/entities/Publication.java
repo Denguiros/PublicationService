@@ -26,6 +26,8 @@ public class Publication implements Serializable {
 	private long id;
 	private String type;
 	private String titre;
+	private String photo;
+	private String description;
 	private String lien;
 	@Temporal(TemporalType.DATE)
 	private Date date;
